@@ -1,0 +1,133 @@
+html, body{
+    margin-left: 0%;
+    margin-right: 0%;
+    max-width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.drawing{
+  padding-top: 2vh;
+    width: 70vw;
+   display: flex;
+   justify-content: center;
+   padding-right: 15vw;
+   padding-left: 15vw;
+}
+@media (orientation: landscape) {
+      .drawing{
+     width: 30vw;
+     padding-right: 35vw;
+     padding-left: 35vw;
+     padding-bottom: 5vh;
+    }
+   }
+.header{
+    font-family:'Oswald', sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+@media (orientation: landscape) {
+    .header{
+font-size: 5em;
+  }
+ }
+.p{
+    text-align: center;
+    font-size: 2.2em;
+    padding-bottom: 1vh;
+}
+@media (orientation: landscape) {
+    .p{
+   font-size: 2.5em;
+  }
+ }
+.wrapper{
+    color: white;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    background: rgb(43, 43, 43);
+    
+}
+@media (orientation: landscape) {
+  .wrapper{
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+}
+/*footer*/
+.nav{
+    width: 100vw;
+    border: 1vw solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0px;
+    background: rgb(51, 51, 51);
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+  }
+  
+  .div{
+    font-size: 2.8vw;
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-family:'Oswald', sans-serif;
+  }
+  .div2{
+    font-size: 2.8vw;
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    color: rgb(197, 194, 194);
+  }
+ 
+  @media (orientation: landscape) {
+    .nav{
+      border: 0.5vw solid black;
+    }
+   }
+   @media (orientation: portrait) {
+    .nav{
+      position: fixed;
+    }
+   }
+  @media (max-width: 950px) {
+    .nav{
+      display: flex;
+     justify-content: center;
+  
+    }
+   }
+   @media (max-width: 960px) {
+    .div{
+      display: flex;
+     justify-content: center;
+    padding-bottom: 5vh;
+    font-size: 4vw;
+     }
+   }
+   @media (max-width: 960px) {
+    .div2{
+      display: flex;
+     justify-content: center;
+    padding-bottom: 0vh;
+    font-size: 4vw;
+     }
+   }
+   @media (min-width: 1500px) {
+    .div .div2 .div3{
+     font-size: 2vw;
+     }
+   }
+   #br{
+  margin-bottom: 2vh;
+  
+   }
+   @media (orientation: landscape) {
+    #br{
+      margin-bottom: 3vh;
+     }
+   }
